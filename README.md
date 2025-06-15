@@ -25,9 +25,6 @@ O **LearnConnect** nasceu na disciplina / projeto de Extensão Curricular da Uni
 
 Tudo isso em uma interface escura (_dark‑mode_) inspirada em comunidades tech, com realce em **<#5c64f4>** (roxo) para ações e destaques.
 
-![Screenshot – lista de materiais](images/featured/learnconnect-screenshot-list.png)
-![Screenshot – material detalhado](images/featured/learnconnect-screenshot-post.png)
-
 ## Motivação
 
 Nem sempre é fácil encontrar **conteúdos de qualidade em um único lugar**. Professores, alunos e entusiastas acabam espalhando links por grupos de WhatsApp ou planilhas. O LearnConnect propõe:
