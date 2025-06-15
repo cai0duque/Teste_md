@@ -1,79 +1,263 @@
 ---
-title: "LearnConnect – Biblioteca Social de Conhecimentos"
+title: "Nome do projeto"
 draft: false
 language: pt-br
-featured_image: images/featured/learnconnect-featured.png
-summary: "LearnConnect é uma plataforma web que conecta quem aprende e quem ensina, organizando materiais, comentários e feedbacks em um só lugar."
-author: UniFil
-categories: Projeto de Extensão
-tags: ["CC", "ES", "ADS", "Educação", "Tecnologia", "Cultura"]
-linkandroid: ""
-linkios: ""
-linkweb: "http://168.75.74.153:3001/"
-linkblog: ""
-linkvideo: ""
+featured_image: images/featured/featured-img-placeholder.png 
+summary: Sumário de seu projeto
+author: Unifil
+categories: Blog
+tags: ["CC", "ES", "ADS", "IA", "Educação", "Tecnologia", "Ciência", "Saúde", "Cultura", "Entretenimento"] 
+linkandroid: link  de download do aplicativo em android
+linkios: link de download aplicativo em ios
+linkweb: link de acesso de aplicativo web
+linkblog: Link do blog
+linkvideo: Link do video
+
 ---
 
-## Sobre o LearnConnect
+__Advertisement :smile:__
 
-O **LearnConnect** nasceu na disciplina / projeto de Extensão Curricular da Universidade UniFil com o objetivo de **centralizar, organizar e democratizar** materiais de estudo. A plataforma permite que qualquer pessoa:
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
 
-* publique **materiais** (artigos, links, road‑maps);
-* **reaja** (likes) e discuta em um **sistema de comentários**;
-* descubra conteúdos por **tags** e categorias;
-* acompanhe o **perfil** de autores e comentadores.
+You will like those projects!
 
-Tudo isso em uma interface escura (_dark‑mode_) inspirada em comunidades tech, com realce em **<#5c64f4>** (roxo) para ações e destaques.
+---
 
-![Screenshot – lista de materiais](images/featured/learnconnect-screenshot-list.png)
-![Screenshot – material detalhado](images/featured/learnconnect-screenshot-post.png)
+# ABAIXO O CONTEÙDO DE EXPLICAÇÂO DE SEU APLICATIVO
 
-## Motivação
+# h1 Heading :blush:
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-Nem sempre é fácil encontrar **conteúdos de qualidade em um único lugar**. Professores, alunos e entusiastas acabam espalhando links por grupos de WhatsApp ou planilhas. O LearnConnect propõe:
 
-> “Transformar a bagunça de links em uma **biblioteca social**.”
+## Horizontal Rules
 
-Benefícios:
+***
 
-| Público        | Ganho principal                               |
-| -------------- | --------------------------------------------- |
-| Estudante      | Encontrar rapidamente roteiros de estudo      |
-| Docente        | Divulgar leituras e acompanhar feedback       |
-| Comunidade     | Valorizar autores locais e criar networking   |
+---
 
-## Tecnologias Utilizadas
+___
 
-```text
-Frontend  → Next.js 15 + React + TailwindCSS
-Backend   → Node.js 18 + Express + Prisma (PostgreSQL)
-Infra     → Docker Compose (postgres, backend, frontend)
-Auth      → JWT
-CI/CD     → GitHub Actions
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
 ```
 
-### Paleta de Cores
+Syntax highlighting
 
-| Cor              | Hex      | Uso principal          |
-| ---------------- | -------- | ---------------------- |
-| Midnight Black   | `#121212`| Fundo (dark‑mode)      |
-| Iron Gray        | `#1a1a1a`| Cartões, side‑bar      |
-| Neon Purple      | `#5c64f4`| Botões, links ativos   |
-| Glow Border      | `#5c64f4/70`| Borda luminosa nos cards |
+``` js
+var foo = function (bar) {
+  return bar++;
+};
 
-## Como acessar
+console.log(foo(5));
+```
 
-O projeto está rodando publicamente em:
+## Tables
 
-➡️ **[http://168.75.74.153:3001/](http://168.75.74.153:3001/)**  ← clique e teste!
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
-## Próximos Passos
+Right aligned columns
 
-- [ ] Implementar **upload** de PDFs/imagens
-- [ ] Notificações por e‑mail
-- [ ] Theme claro/escuro
-- [ ] Integração com OAuth (Google / GitHub)
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
 
----
 
-> _“Compartilhar conhecimento é multiplicar oportunidades.”_ – Equipe LearnConnect
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- X^2^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
