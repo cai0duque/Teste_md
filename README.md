@@ -11,7 +11,7 @@ linkandroid: ""
 linkios: ""
 linkweb: "http://168.75.74.153:3001/"
 linkblog: ""
-linkvideo: ""
+linkvideo: "https://youtu.be/sT9YVhcFgP8"
 ---
 
 ## Sobre o LearnConnect
@@ -42,9 +42,9 @@ Benefícios:
 ## Tecnologias Utilizadas
 
 ```text
-Frontend  → Next.js 15 + React + TailwindCSS
-Backend   → Node.js 18 + Express + Prisma (PostgreSQL)
-Infra     → Docker Compose (postgres, backend, frontend)
+Frontend  → Next.js 15 + React + TailwindCSS
+Backend   → Node.js 18 + Express + Prisma (PostgreSQL)
+Infra     → Docker Compose (postgres, backend, frontend)
 Auth      → JWT
 CI/CD     → GitHub Actions
 ```
